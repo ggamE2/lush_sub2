@@ -13,15 +13,15 @@
 }
 
 .visual h2 {
-    top: 26%;
-    left: 28%;
-    font: normal 65px "Do Hyeon";
+    top: 22%;
+    left: 26.5%;
+    font: normal 70px "Do Hyeon";
 }
 
 .visual h3 {
     top: 51%;
-    left: 22%;
-    font: normal 16px "Malgun Gothic";
+    left: 20.5%;
+    font: normal 17px "Malgun Gothic";
 }
 
 
@@ -267,15 +267,15 @@
 }
 
 .visual h2 {
-    top: 27%;
+    top: 23%;
     left: 35%;
-    font: normal 75px "Do Hyeon";
+    font: normal 85px "Do Hyeon";
 }
 
 .visual h3 {
     top: 49%;
     left: 28%;
-    font: normal 21px "Malgun Gothic";
+    font: normal 23px "Malgun Gothic";
 }
 
 /*contents*/
@@ -449,15 +449,15 @@
 }
 
 .visual h2 {
-    top: 30%;
-    left: 39.5%;
-    font: normal 85px "Do Hyeon";
+    top: 25%;
+    left: 39%;
+    font: normal 100px "Do Hyeon";
 }
 
 .visual h3 {
-    top: 54%;
+    top: 51%;
     left: 34%;
-    font: normal 24px "Malgun Gothic";
+    font: normal 26px "Malgun Gothic";
 }
 
 
@@ -612,5 +612,6 @@
 
 
 }
+    
     
 
