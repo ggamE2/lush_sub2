@@ -1,0 +1,787 @@
+@charset "utf-8";
+
+
+
+/*visual*/
+.visual {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    background: #000;
+}
+
+.visual img {
+    width: 100%;
+}
+
+.visual h2 {
+    position: absolute;
+    font: normal 85px "Do Hyeon";
+    color: #fff;
+    margin: 0 auto;
+}
+
+.visual h3 {
+    position: absolute;
+    font: normal 24px "Malgun Gothic";
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/*contents*/
+.contents {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+}
+
+.contents .cont0 {
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.contents .cont0 h2 {
+    text-align: center;
+}
+
+
+
+/*cont1*/
+.contents .cont1 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.contents .cont1 > div {
+    float: left;
+}
+
+.contents .cont1 > div img {
+    width: 100%;
+}
+
+.contents .cont1 > div .deco {
+    position: relative;
+}
+
+.contents .cont1 > div h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contents .cont1 > div strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+
+/*cont2*/
+.contents .cont2 {
+    position: relative;
+    width: 100%;
+    margin: 150px auto 0;
+}
+
+.contents .cont2 li {
+    position: relative;
+    float: left;
+    height: 400px;
+}
+
+.contents .cont2 li:first-child {}
+
+.contents .cont2 li h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.contents .cont2 li .deco {
+    position: relative;
+    background: #000;
+}
+
+.contents .cont2 li .deco img {
+    width: 100%;
+}
+
+/*position r로 하냐 a 하냐에 따라서 이미지 위치가 바뀜 시발*/
+.contents .cont2 li .line {}
+
+.contents .cont2 li strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+
+/*cont3*/
+.contents .cont3 {
+    width: 100%;
+    position: relative;
+}
+
+.contents .cont3 li {
+    float: left;
+    position: relative;
+}
+
+.contents .cont3 li:first-child {}
+
+.contents .cont3 li img {
+    width: 100%;
+    position: relative;
+
+}
+
+.contents .cont3 li h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.contents .cont3 li strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+.contents .cont3 li span {
+    background: rgba(255, 238, 127, 1);
+    transition: all 2s;
+}
+
+
+/*cont4*/
+.contents .cont4 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contents .cont4 li {
+    position: relative;
+    float: left;
+}
+
+.contents .cont4 li:first-child {}
+
+.contents .cont4 li h2 {
+    position: absolute;
+    transform: translate(0%, 0%);
+}
+
+.contents .cont3 li .img {
+    width: 100%;
+    position: relative;
+
+}
+
+.contents .cont3 li .img img {
+    width: 100%;
+
+}
+
+
+.contents .cont4 li strong {
+    transition: all 0.9s;
+    color: #1ea24d;
+}
+
+.contents .cont4 li span {
+    background: rgba(255, 238, 127, 1);
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+
+
+/*contents_m*/
+.contents_m {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.contents_m .cont0_m {
+    width: 90%;
+    position: relative;
+    overflow: hidden;
+    margin: 80px auto 0;
+}
+
+.contents_m .cont0_m h2 {
+    text-align: center;
+    font: normal 21px "Gowun Dodum";
+    font-weight: 500;
+}
+
+
+/*cont1*/
+.contents_m .cont1_m {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin: 100px auto 0;
+}
+
+.contents_m .cont1_m > div {
+    width: 100%;
+    float: left;
+}
+
+.contents_m .cont1_m > div img {
+    width: 100%;
+}
+
+.contents_m .cont1_m > div .deco {
+    position: relative;
+}
+
+.contents_m .cont1_m > div h2 {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    font: normal 20px "Gowun Dodum";
+}
+
+.contents_m .cont1_m > div strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+
+/*cont2*/
+.contents_m .cont2_m {
+    position: relative;
+    width: 100%;
+    margin: 130px auto 0;
+    overflow: hidden;
+}
+
+.contents_m .cont2_m li {
+    position: relative;
+    float: left;
+}
+
+.contents_m .cont2_m li h2 {
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+    font: normal 20px "Gowun Dodum";
+}
+
+.contents_m .cont2_m li .deco {
+    position: relative;
+    background: #000;
+}
+
+.contents_m .cont2_m li .deco img {
+    width: 100%;
+}
+
+/*position r로 하냐 a 하냐에 따라서 이미지 위치가 바뀜 시발*/
+.contents_m .cont2_m li .line {}
+
+.contents_m .cont2_m li strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+
+/*cont3*/
+.contents_m .cont3_m {
+    width: 100%;
+    position: relative;
+    margin: 130px auto 0;
+    overflow: hidden;
+}
+
+.contents_m .cont3_m li {
+    float: left;
+    position: relative;
+}
+
+.contents_m .cont3_m li img {
+    width: 100%;
+    position: relative;
+
+}
+
+.contents_m .cont3_m li h2 {
+    position: relative;
+    font: normal 20px "Gowun Dodum";
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contents_m .cont3_m li strong {
+    transition: all 0.9s;
+    color: #1ea24d;
+}
+
+.contents_m .cont3_m li span {
+    background: rgba(255, 238, 127, 1);
+    transition: all 2s;
+}
+
+
+/*cont4*/
+.contents_m .cont4_m {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 130px auto 0;
+}
+
+.contents_m .cont4_m li {
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.contents_m .cont4_m li:first-child {}
+
+.contents_m .cont4_m li h2 {
+    position: relative;
+    font: normal 20px "Gowun Dodum";
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contents_m .cont4_m li .img {
+    width: 100%;
+    position: relative;
+
+}
+
+.contents_m .cont4_m li .img img {
+    width: 100%;
+
+}
+
+
+.contents_m .cont4_m li strong {
+    transition: all 0.9s;
+    color: #1ea24d;
+}
+
+.contents_m .cont4_m li span {
+    background: rgba(255, 238, 127, 1);
+    transition: all 2s;
+}
+
+
+
+
+
+
+
+
+/*content2*/
+.content2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.content2 > .cont_1 > .cont_2 {}
+
+/*cont_1*/
+.content2 .cont_1 {
+    position: relative;
+    width: 100%;
+    background: #d2d2d2;
+    margin: 150px auto 0;
+    overflow: hidden;
+}
+
+.content2 .cont_1 > div {
+    float: left;
+    width: 50%;
+}
+
+.content2 .cont_1 > div img {
+    width: 100%;
+}
+
+.content2 .cont_1 > div:first-child :hover {
+    opacity: 0.8;
+}
+
+.content2 .cont_1 > div ul {
+    width: 100%;
+    float: inherit;
+}
+
+.content2 .cont_1 > div ul li {
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 50%;
+}
+
+.content2 .cont_1 > div ul li img {
+    width: 100%;
+}
+
+.content2 .cont_1 > div ul li:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    opacity: 0.8;
+}
+
+.content2 .cont_1 > div .txt1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 48%;
+    left: 25%;
+    opacity: 0;
+}
+
+.content2 .cont_1 > div .txt1:hover {
+    opacity: 1;
+}
+
+.content2 .cont_1 > div ul li .txt2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 48%;
+    left: 48%;
+    opacity: 0;
+}
+
+.content2 .cont_1 > div ul li .txt3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    opacity: 0;
+}
+
+
+.content2 .cont_1 > div:hover .txt1 {
+    opacity: 1;
+}
+
+.content2 .cont_1 > div ul li:hover .txt2 {
+    opacity: 1;
+}
+
+.content2 .cont_1 > div ul li:hover .txt3 {
+    opacity: 1;
+}
+
+
+/*cont_2*/
+.content2 .cont_2 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.content2 .cont_2 ul {}
+
+.content2 .cont_2 ul li {
+    float: left;
+    position: relative;
+}
+
+.content2 .cont_2 ul li:first-child {
+    width: 59.25%;
+    height: 70%;
+}
+
+.content2 .cont_2 ul li:first-child img {
+    height: 70%;
+}
+
+.content2 .cont_2 ul li:nth-child(2) {
+    width: 40.75%;
+}
+
+.content2 .cont_2 ul li img {
+    width: 100%;
+}
+
+
+.content2 .cont_2 ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.content2 .cont_2 ul li .txt4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+.content2 .cont_2 ul li .txt5 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 52%;
+    opacity: 0;
+}
+
+.content2 .cont_2 ul li:hover .txt4 {
+    opacity: 1;
+}
+
+.content2 .cont_2 ul li:hover .txt5 {
+    opacity: 1;
+}
+
+
+/*cont_3*/
+.content2 .cont_3 {
+    position: relative;
+    width: 100%;
+    margin: 80px auto;
+}
+
+.content2 .cont_3 h2 {
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+}
+
+
+.content2 .cont_3 h2 a:hover {
+    opacity: 1;
+    z-index: 10;
+}
+
+.content2 .cont_3 h2 .line {
+    display: block;
+    width: 0%;
+    height: 20px;
+    background: rgba(250, 227, 0, 1);
+    opacity: 0.6;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.content2 .cont_3 h2:hover .line {
+    z-index: -10;
+}
+
+
+
+
+
+
+/*content2_m*/
+.content2_m {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin: 120px auto 0;
+}
+
+/*cont_1*/
+.content2_m .cont_1_m {
+    position: relative;
+    width: 100%;
+    background: #d2d2d2;
+    overflow: hidden;
+}
+
+.content2_m .cont_1_m > div {
+    position: relative;
+    float: left;
+    width: 50%;
+}
+
+.content2_m .cont_1_m > div img {
+    width: 100%;
+}
+
+.content2_m .cont_1_m > div .txt1 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 48%;
+    left: 48%;
+    opacity: 0;
+}
+
+.content2_m .cont_1_m > div .txt2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 48%;
+    left: 48%;
+    opacity: 0;
+}
+
+.content2_m .cont_1_m > div:hover {
+    opacity: 0.8;
+}
+
+.content2_m .cont_1_m > div:hover .txt1 {
+    opacity: 1;
+}
+
+.content2_m .cont_1_m > div:hover .txt2 {
+    opacity: 1;
+}
+
+
+/*cont_2*/
+.content2_m .cont_2_m {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.content2_m .cont_2_m img {
+    width: 100%;
+}
+
+.content2_m .cont_2_m .txt3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 48%;
+    left: 48%;
+    opacity: 0;
+}
+
+.content2_m .cont_2_m:hover {
+    opacity: 0.8;
+}
+
+.content2_m .cont_2_m:hover .txt3 {
+    opacity: 1;
+}
+
+/*.cont_3_m */
+.content2_m .cont_3_m {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.content2_m .cont_3_m ul li {
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+.content2_m .cont_3_m ul li img {
+    width: 100%;
+}
+
+
+.content2_m .cont_3_m ul li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+.content2_m .cont_3_m ul li .txt4 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+}
+
+.content2_m .cont_3_m ul li .txt5 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    top: 50%;
+    left: 52%;
+    opacity: 0;
+}
+
+.content2_m .cont_3_m ul li:hover .txt4 {
+    opacity: 1;
+}
+
+.content2_m .cont_3_m ul li:hover .txt5 {
+    opacity: 1;
+}
+
+
+/*content2 .cont_5_m*/
+
+.content2_m .cont_5_m {
+    position: relative;
+    width: 100%;
+    margin: 80px auto;
+}
+
+.content2_m .cont_5_m h2 {
+    text-align: center;
+    margin: 0 auto;
+    z-index: 10;
+    font: bold 44px "Bebas Neue";
+}
+
+.content2_m .cont_5_m h2:hover {
+    opacity: 1;
+    z-index: 10;
+}
+
+.content2_m .cont_5_m h2 .line {
+    display: block;
+    width: 0%;
+    height: 20px;
+    background: rgba(250, 227, 0, 1);
+    opacity: 0.6;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+.content2_m .cont_5_m h2 img {
+    width: 30px;
+    margin: 12px;
+}
+
+.content2_m .cont_5_m h2:hover .line {
+    width: 60%;
+    z-index: -10;
+}
+
+
+
+/*moving*/
+.moving {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background: url(../images/moving_icon.png) 0 center / 500px repeat-x;
+    animation: movebg 5s linear infinite;
+    background: filter: invert(100%) sepia(0%) saturate(5479%) hue-rotate(345deg) brightness(115%) contrast(90%);
+}
+
+@keyframes movebg {
+    0% {
+        background-position: 0 center;
+    }
+
+    100% {
+        background-position: -500px center;
+    }
+
+    /*속도*/
+} 
+    

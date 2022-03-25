@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>러쉬</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, 
+user-scalable=no">
+
+<!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>     
+<![endif]-->
+
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    
+<link rel="stylesheet" href="common/css/common.css">    
+<link rel="stylesheet" href="common/css/common-media.css">
+<link rel="stylesheet" href="maincss/main.css">
+<link rel="stylesheet" href="maincss/media.css">
+<link rel="stylesheet" href="maincss/animate-ex.css">
+
+
+
+<!--font-->
+
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hahmlet&family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="mainjs/jquery-ui.min.js"></script>
+    <script src="mainjs/jquery.easing.1.3.js"></script>
+    <script src="mainjs/prefixfree.min.js"></script>
+    <script src="mainjs/jquery.mousewheel.min.js"></script>
+
+<script src="mainjs/jquery-1.10.2.min.js"></script>
+<script src="mainjs/jquery-2.1.1.min.js"></script>
+<script src="common/js/common.js"></script>
+<script src="mainjs/main.js"></script>
+</head>
+
+<body>
+<div id="wrap">
+    <header class="header">
+        <div class="header_menu_mt">
+            <h1><a href="#"><img src="images/logo.gif" alt="logo_pc"></a></h1>
+
+            <p class="ic_menu"><img src="images/menu_icon.png" alt="ic_menu"></p>
+        </div>
+
+
+        <div class="left_menu">
+
+            <nav class="nav_0">
+                <p class="mypage"><a href="#"><img src="images/user_icon_1.png"></a></p>
+                <ul class="gnb">
+                    <li><a href="#">로그인</a><span class="line"></span></li>
+                    <li><a href="#">회원가입</a><span class="line"></span></li>
+
+                </ul>
+            </nav>
+            <!--nav_0-->
+
+
+            <nav class="nav_1">
+                <ul class="gnb_1">
+                    <li><a href="#">마이 페이지</a></li>
+                    <li><a href="#">찜한상품</a></li>
+                    <li><a href="#">배송조회</a></li>
+                    <li><a href="#">장바구니</a></li>
+                </ul>
+            </nav>
+            <!--nav_1-->
+
+            <nav class="nav_2">
+                <ul class="gnb_2">
+                    <li class="li1"><a href="#">제품</a><span class="line"></span></li>
+                    <li class="li2"><a href="#">러쉬소개</a><span class="line"></span></li>
+                    <li class="li3"><a href="#">매장안내</a><span class="line"></span></li>
+                    <li class="li4"><a href="#">스파</a><span class="line"></span></li>
+                    <li class="li5"><a href="#">이벤트</a><span class="line"></span></li>
+                </ul>
+            </nav>
+            <!--nav_2-->
+
+            <nav class="nav_8">
+                <ul class="gnb2">
+                    <li><a href="#">스카우트</a><span class="line"></span></li>
+                    <li><a href="#">고객센터</a><span class="line"></span></li>
+                </ul>
+            </nav>
+
+            <p class="left_logo"><img src="images/foot_logo.png"></p>
+            <!--nav_-->
+
+
+            <p class="close"><a href="#"><img src="images/close_icon.gif"></a></p>
+
+        </div> <!-- left_menu /-->
+
+
+
+
+        <div class="header_menu_pc">
+            <div class="header_menu">
+                <h1><a href="#"><img src="images/logo.gif" alt="logo_pc"></a></h1>
+
+                <nav class="nav">
+
+                    <ul class="gnb">
+                        <li><a href="#">제품<span class="line"></span></a>
+                            <ul class="sub1 sub">
+                                <li><a href="#">베스트</a></li>
+                                <li><a href="#">신제품</a></li>
+                                <li><a href="#">기프트</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">러쉬소개<span class="line"></span></a>
+                            <ul class="sub2 sub">
+                                <li><a href="#">러쉬 이야기</a></li>
+                                <li><a href="#">채러티 팟</a></li>
+                                <li><a href="#">커뮤니티</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">매장안내<span class="line"></span></a>
+                            <ul class="sub3 sub">
+                                <li><a href="#"> </a></li>
+                                <li><a href="#"> </a></li>
+                                <li><a href="#"> </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">스파<span class="line"></span></a>
+                            <ul class="sub4 sub">
+                                <li><a href="#"> </a></li>
+                                <li><a href="#"> </a></li>
+                                <li><a href="#"> </a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#">이벤트<span class="line"></span></a>
+                            <ul class="sub5 sub">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">선정자 발표</a></li>
+                                <li><a href="#">종료된 이벤트</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <ul class="icon">
+                        <li class="user_icon"><a href="#"><img src="images/user_icon_1.png"></a></li>
+                        <li class="search_icon"><a href="#"><img src="images/search_icon.png"></a></li>
+                    </ul>
+                </nav>
+
+
+            </div>
+        </div>
+        <!--header menu_pc-->
+        <!--header_menu-->
+
+
+
+        <div class="search_box">
+            <div class="search_in">
+                <input type="text" placeholder="#LOVE KNOT COLLECTION" class="search_txt">
+                <input type="button" value="검색" class="search_btn">
+            </div>
+        </div>
+        <!--search_box-->
+
+        <div class="user_in">
+            <p class="close"><a href="#"><img src="images/close.png"></a></p>
+            <h2>로그인</h2>
+            <h3>회원가입 시 등록하신 이메일과 비밀번호를 입력해주세요.<br>
+                통합 아이디로 FAMILY 사이트의 모든 서비스를 안전하게 이용하실 수 있습니다.</h3>
+
+            <div class="cont1">
+                <input type="text" placeholder="id" class="id">
+                <input type="text" placeholder="pw" class="pw">
+                <p class="btn"><a href="#">로그인하기</a></p>
+                <ul>
+                    <li class="id_save"><input type="checkbox">아이디 저장하기</li>
+                    <li class="id_search"><a href="#">아이디 찾기</a>/</li>
+                    <li class="pw_search"><a href="#">비밀번호 찾기</a></li>
+                </ul>
+                <div class="line"></div>
+                <p class="join">아직 회원이 아니신가요? <span><a href="https://stonehenge.co.kr/index_subpage.html?mainwhat=9&subwhat=2">회원가입</a></span></p>
+            </div>
+            <!--user_in-->
+
+
+            <div class="cont2">
+                <ul>
+                    <li><a href="https://nid.naver.com/"><img src="images/icon1.gif">
+                            <p>네이버 로그인</p>
+                        </a></li>
+                    <li><a href="#"><img src="images/icon2.gif">
+                            <p>페이스북 로그인</p>
+                        </a></li>
+                    <li><a href="https://accounts.kakao.com/login?continue=https%3A%2F%2Faccounts.kakao.com%2Fweblogin%2Faccount%2Fsetting"><img src="images/icon3.gif">
+                            <p>카카오톡 로그인</p>
+                        </a></li>
+                </ul>
+            </div>
+            <!--cont2-->
+        </div>
+        <!--user_in-->
+
+    </header>
+
+    <section class="visual">
+        <img class="img wow fadeInUp" data-wow-delay="0.4s" src="images/brand_bg08.jpg" alt="">
+        <h2 class="txt wow bounceInDown" data-wow-delay="0.4s" transition=all 2s;>러쉬 소개</h2>
+        <h3 class="txt wow fadeInDown" data-wow-delay="1s" transition=all 2s;>영국 프레쉬 핸드메이드 코스메틱 브랜드</h3>
+    </section>
+
+
+    <section class="contents">
+        <div class="cont0">
+            <h2 class="txt wow fadeInDown" data-wow-delay="0.4s" transition=all 0.5s; class="h2">“ 러쉬는 자연에서 얻은 신선한 재료와 동물실험을 하지 않는 정직한 재료를 사용하여 모든 제품을 손으로 만듭니다.
+                더불어 공정 거래, 인권 보호, 포장 최소화 등 다양한 캠페인 활동을 통해 기업 윤리와 신념을 알리고 있습니다. ”
+            </h2>
+        </div>
+        <!--cont0-->
+
+        <div class="cont1">
+            <div>
+                <p class="deco wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s;><img src="images/introduce_01.jpg"> </p>
+            </div>
+
+            <div>
+                <h2 class="txt wow fadeInRight" data-wow-delay="0.5s" transition=all 0.6s; class="h2"> 러쉬는 어떤 이유에서도 제품을 <strong class="line wow bounceInLeft" data-wow-delay="0.9s">동물실험</strong> 하지 않고,
+                    동물실험을 거친 원재료조차 사용하지 않습니다.
+                    직접 구매팀을 운영하며, 엄격한 기준을 바탕으로
+                    <strong class="line wow bounceInLeft" data-wow-delay="0.8s">윤리적인 공정 여부</strong>를 확인합니다.
+                </h2>
+            </div>
+        </div>
+        <!--cont1-->
+
+
+        <div class="cont2">
+            <ul>
+                <li>
+                    <h2 class="txt wow fadeInRight" data-wow-delay="0.5s" transition=all 0.6s;> 러쉬는 배쓰 밤, 샤워 젤리, 고체 샴푸와 같은
+                        기발하고 혁신적인 제품을 선보입니다.<br>
+                        특히 불필요한 포장을 없앤 고체 형태의 다양한
+                        <strong class="line wow bounceInLeft" data-wow-delay="0.8s">‘네이키드(Naked)'</strong> 제품을 개발하며
+                        화장품 산업에서 혁명을 일으켜 왔습니다.
+                    </h2>
+                </li>
+                <li><img class="deco wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s; src="images/introduce_02.jpg" ; alt=""></li>
+            </ul>
+        </div>
+        <!--cont2-->
+
+
+        <div class="cont3">
+            <ul>
+                <li>
+                    <img class="img wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s; src="images/introduce_03.jpg" ; alt="">
+                </li>
+                <li>
+                    <h2 class="txt wow fadeInRight" data-wow-delay="0.5s" transition=all 0.6s;><span class="txt wow fadeInLeft" data-wow-delay="0.7s" transition:all 0.8s;>신선함</span>은 러쉬 철학의 핵심입니다.<br>
+                        신선한 과일, 채소, 에센셜 오일, 최소한의 보존제와
+                        안전한 인공 성분을 사용하여 제품을 선보입니다.<br>
+                        러쉬의 모든 제품은 <strong class="line wow bounceInLeft" data-wow-delay="0.8s">베지테리언(Vegetarian)</strong>이며,
+                        그 중 약 95%는 식물성 원료로만 만든 <strong class="line wow bounceInLeft" data-wow-delay="0.8s">비건(Vegan)</strong>입니다.
+                    </h2>
+                </li>
+            </ul>
+        </div>
+        <!--cont3-->
+        <div class="cont4">
+            <ul>
+                <li>
+
+                    <h2 class="txt wow fadeInRight" data-wow-delay="0.5s" transition=all 0.6s;>이 모든 것은 ‘고객은 항상 옳다’는 믿음과 러쉬의 핵심 가치인
+                        직원들의 진심이 모여 얻은 결실입니다. <br>
+                        앞으로도 러쉬는 현시대에 필요한 제품과 서비스를 제공할 것입니다. <br>
+                        <strong>환경 보호</strong>를 위해 고민하고, 동물과 자연 그리고 사람이
+                        <strong>조화로운 세상</strong>을 만들기 위한 <span class="txt wow fadeInLeft" data-wow-delay="0.7s" transition:all 0.8s;>도전과 혁신</span>에 앞장섭니다.
+                    </h2>
+
+                </li>
+                <li>
+                    <img class="img wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s; src="images/introduce_04.jpg" ; alt="">
+                </li>
+
+            </ul>
+        </div>
+        <!--cont4-->
+    </section>
+    <!--contents-->
+
+    <section class="contents_m">
+        <div class="cont0_m">
+            <h2 class="txt wow fadeInDown" data-wow-delay="0.4s" transition=all 0.5s; class="h2">“ 러쉬는 자연에서 얻은 신선한 재료와 동물실험을 하지 않는 정직한 재료를 사용하여 모든 제품을 손으로 만듭니다.
+                더불어 공정 거래, 인권 보호, 포장 최소화 등 다양한 캠페인 활동을 통해 기업 윤리와 신념을 알리고 있습니다. ”
+            </h2>
+        </div>
+        <!--cont0-->
+
+        <div class="cont1_m">
+            <div>
+                <p class="deco wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s;><img src="images/introduce_01.jpg"> </p>
+            </div>
+
+            <div>
+                <h2 class="txt wow fadeInUp" data-wow-delay="0.5s" transition=all 0.6s; class="h2"> 러쉬는 어떤 이유에서도 제품을 <strong class="line wow bounceInLeft" data-wow-delay="0.9s">동물실험</strong> 하지 않고,
+                    동물실험을 거친 원재료조차 사용하지 않습니다.
+                    직접 구매팀을 운영하며, 엄격한 기준을 바탕으로
+                    <strong class="line wow bounceInLeft" data-wow-delay="0.8s">윤리적인 공정 여부</strong>를 확인합니다.
+                </h2>
+            </div>
+        </div>
+        <!--cont1_m-->
+
+
+        <div class="cont2_m">
+            <ul>
+                <li><img class="deco wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s; src="images/introduce_02.jpg" ; alt=""></li>
+
+                <li>
+                    <h2 class="txt wow fadeInUp" data-wow-delay="0.5s" transition=all 0.6s;> 러쉬는 배쓰 밤, 샤워 젤리, 고체 샴푸와 같은
+                        기발하고 혁신적인 제품을 선보입니다.<br>
+                        특히 불필요한 포장을 없앤 고체 형태의 다양한
+                        <strong class="line wow bounceInLeft" data-wow-delay="0.8s">‘네이키드(Naked)'</strong> 제품을 개발하며
+                        화장품 산업에서 혁명을 일으켜 왔습니다.
+                    </h2>
+                </li>
+            </ul>
+        </div>
+        <!--cont2_m-->
+
+
+        <div class="cont3_m">
+            <ul>
+                <li>
+                    <img class="img wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s; src="images/introduce_03.jpg" ; alt="">
+                </li>
+                <li>
+                    <h2 class="txt wow fadeInUp" data-wow-delay="0.5s" transition=all 0.6s;><span class="txt wow fadeInLeft" data-wow-delay="0.7s" transition:all 0.9s;><b>신선함</b></span>은 러쉬 철학의 핵심입니다.<br>
+                        신선한 과일, 채소, 에센셜 오일, 최소한의 보존제와
+                        안전한 인공 성분을 사용하여 제품을 선보입니다.<br>
+                        러쉬의 모든 제품은 <strong class="line wow bounceInLeft" data-wow-delay="0.8s">베지테리언(Vegetarian)</strong>이며,
+                        그 중 약 95%는 식물성 원료로만 만든 <strong class="line wow bounceInLeft" data-wow-delay="0.8s">비건(Vegan)</strong>입니다.
+                    </h2>
+                </li>
+            </ul>
+        </div>
+        <!--cont3_m-->
+
+
+        <div class="cont4_m">
+            <ul>
+                <li>
+                    <img class="img wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s; src="images/introduce_04.jpg" ; alt="">
+
+                </li>
+                <li>
+                    <h2 class="txt wow fadeInUp" data-wow-delay="0.5s" transition=all 0.6s;>이 모든 것은 <b>‘고객은 항상 옳다’</b>는 믿음과 러쉬의 핵심 가치인
+                        직원들의 진심이 모여 얻은 결실입니다. <br>
+                        앞으로도 러쉬는 현시대에 필요한 제품과 서비스를 제공할 것입니다. <br>
+                        <strong>환경 보호</strong>를 위해 고민하고, 동물과 자연 그리고 사람이
+                        <strong>조화로운 세상</strong>을 만들기 위한 <span class="txt wow fadeInLeft" data-wow-delay="0.7s" transition:all 0.8s;><b>도전과 혁신</b></span>에 앞장섭니다.
+                    </h2>
+
+                </li>
+
+            </ul>
+        </div>
+        <!--cont4_m-->
+    </section>
+    <!--contents-->
+
+
+    <section class="content2">
+        <div class="cont_1">
+            <div>
+                <img src="images/introduce_06.jpg">
+                <p class="txt1">HANDMADE</p>
+            </div>
+            <div>
+                <ul>
+                    <li><img src="images/introduce_07.jpg">
+                        <p class="txt2">Fighting Animal Testing</p>
+                    </li>
+                    <li><img src="images/introduce_08.jpg">
+                        <p class="txt3">Vegetarian</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--cont_1-->
+
+
+        <div class="cont_2">
+            <ul>
+                <li><img src="images/introduce_09.gif">
+                    <p class="txt4">Ethical Buying</p>
+                </li>
+                <li><img src="images/introduce_10.gif">
+                    <p class="txt5">Naked</p>
+                </li>
+            </ul>
+        </div>
+        <!--cont_2-->
+
+        <div class="cont_3">
+            <h2 class="txt wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s;><a href="#">MORE ABOUT LUSH<img src="images/right-arrow.svg"></a><span class="line"></span></h2>
+        </div>
+        <!--cont_3-->
+
+
+    </section>
+    <!--content2-->
+
+
+    <section class="content2_m">
+
+
+        <div class="cont_1_m">
+            <div>
+                <img src="images/introduce_06.jpg">
+                <p class="txt1">HANDMADE</p>
+            </div>
+            <div>
+                <img src="images/introduce_08m.jpg">
+                <p class="txt2">Vegiterian</p>
+            </div>
+        </div>
+        <!--cont_1-->
+
+        <div class="cont_2_m">
+            <img src="images/introduce_07.jpg">
+            <p class="txt3">Fighting Animal Testing</p>
+        </div>
+
+        <div class="cont_3_m">
+            <ul>
+                <li><img src="images/introduce_09m.gif">
+                    <p class="txt4">Ethical Buying</p>
+                </li>
+                <li><img src="images/introduce_10m.gif">
+                    <p class="txt5">Naked</p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="cont_5_m">
+            <h2 class="txt wow fadeInUp" data-wow-delay="0.4s" transition=all 0.5s;><a href="#">MORE ABOUT LUSH<img src="images/right-arrow.svg"></a><span class="line"></span></h2>
+        </div>
+        <!--cont_3-->
+
+
+    </section>
+    <!--content2-->
+
+
+
+
+
+
+
+
+    <section class="moving"></section>
+    <!--moving-->
+
+    <footer class="footer">
+        <div class="foot1">
+            <!--피시-->
+            <ul class="footer_menu1">
+                <li><a href="#">스카우트</a></li>
+                <li><a href="#">회사소개</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">영상정보관리지침</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">고객센터</a></li>
+            </ul>
+
+        </div>
+        <!--footer_menu1-->
+
+
+
+        <div class="foot2">
+            <div>
+                <ul class="txt1">고객센터
+                    <br>1644-2357
+                    <br>상담전화 13:00~16:00(평일)
+                    <br>상담톡 10:00~16:00(평일)
+                </ul>
+
+                <ul class="sns">
+                    <li><a href="https://www.facebook.com/lushkorea"><img src="images/sns_01.png"></a></li>
+                    <li><a href="https://www.instagram.com/lushkorea/"><img src="images/sns_02.png"></a></li>
+                    <li><a href="https://www.youtube.com/user/LUSHKOREA1"><img src="images/sns_03.png"></a></li>
+                    <li><a href="https://pf.kakao.com/_VEbUM"><img src="images/sns_04.png"></a></li>
+                    <li><a href="https://m.post.naver.com/lushkr1"><img src="images/sns_05.png"></a></li>
+
+                </ul>
+            </div>
+
+            <div>
+                <p class="txt2">매주 금요일 오후, 구독자님을 위한<br>
+                    제품과 브랜드 이야기를 전해드립니다.<br>
+                    <span>미리보기</span>
+                <div class="search_w">
+                    <input type="text" placeholder="이메일 주소를 입력해 주세요.">
+                    <span class="search_btn"><a href="#"><img src="images/foot_search_button.gif" alt="search_img"></a></span>
+                </div>
+
+                <p class="txt3">
+                    구독은 언제든지 <span><ins>해지</ins></span> 하실 수 있습니다.</p><br>
+            </div>
+
+        </div>
+        <!--foot2-->
+
+
+
+        <div class="foot3">
+            <div class="line">
+            </div>
+            <!--line-->
+            <p class="logo_2"><a href="#"><img src="images/foot_logo.png"></a></p>
+        </div>
+        <!--foot3-->
+
+        <div class="foot4">
+            <p>서울특별시 서초구 138(서초동아다워)6층| 사이트 운영자:주식회사 러쉬코리아 |대표이사:우미령
+                사업자 등록번호 201-81-77964| 통신판매업 신고번호 :2012-서울서초-0647|개인정보보호책임자:우승용</p>
+        </div>
+        <!--foot4-->
+    </footer>
+    <!--footer-->
+</div>
+<!--wrap-->
+
+   
+   
+    <script src="mainjs/wow.js"></script>
+    <script>
+        wow = new WOW({
+            animateClass: 'animated',
+            offset: 100
+        });
+        wow.init();
+    </script>
+       
+    
+</body>
+</html>
+    <!--footer-->

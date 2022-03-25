@@ -1,0 +1,616 @@
+@charset "utf-8";
+
+/* 모바일 */
+@media screen and (max-width:639px) {
+
+.contents,.content2 {
+    display: none;
+}
+
+/*visual*/
+.visual {
+    height: 330px;
+}
+
+.visual h2 {
+    top: 26%;
+    left: 28%;
+    font: normal 65px "Do Hyeon";
+}
+
+.visual h3 {
+    top: 51%;
+    left: 22%;
+    font: normal 16px "Malgun Gothic";
+}
+
+
+/*contents_m*/
+.contents_m {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+}
+
+.contents_m .cont0 {
+    width: 85%;
+    position: relative;
+    overflow: hidden;
+}
+
+.contents_m .cont0 h2 {
+    text-align: center;
+}
+
+
+/*cont1*/
+.contents_m .cont1 {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.contents_m .cont1 > div {
+    float: left;
+}
+
+.contents_m .cont1 > div img {
+    width: 100%;
+}
+
+.contents_m .cont1 > div .deco {
+    position: relative;
+}
+
+.contents_m .cont1 > div h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.contents_m .cont1 > div strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+
+/*cont2*/
+.contents_m .cont2 {
+    position: relative;
+    width: 100%;
+    margin: 150px auto 0;
+}
+
+.contents_m .cont2 li {
+    position: relative;
+    float: left;
+    height: 400px;
+}
+
+.contents_m .cont2 li:first-child {}
+
+.contents_m .cont2 li h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.contents_m .cont2 li .deco {
+    position: relative;
+    background: #000;
+}
+
+.contents_m .cont2 li .deco img {
+    width: 100%;
+}
+
+.contents .cont2 li .line {}
+
+.contents .cont2 li strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+
+/*cont3*/
+.contents_m .cont3 {
+    width: 100%;
+    position: relative;
+}
+
+.contents_m .cont3 li {
+    float: left;
+    position: relative;
+}
+
+.contents_m .cont3 li:first-child {}
+
+.contents_m .cont3 li img {
+    width: 100%;
+    position: relative;
+
+}
+
+.contents_m .cont3 li h2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.contents_m .cont3 li strong {
+    transition: all 0.8s;
+    color: #1ea24d;
+}
+
+.contents .cont3 li span {
+    background: rgba(255, 238, 127, 1);
+    transition: all 2s;
+}
+
+
+/*cont4*/
+.contents_m .cont4 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.contents_m .cont4 li {
+    position: relative;
+    float: left;
+}
+
+.contents_m .cont4 li:first-child {}
+
+.contents_m .cont4 li h2 {
+    position: absolute;
+    transform: translate(0%, 0%);
+}
+
+.contents_m .cont3 li .img {
+    width: 100%;
+    position: relative;
+
+}
+
+.contents_m .cont3 li .img img {
+    width: 100%;
+
+}
+
+
+.contents_m .cont4 li strong {
+    transition: all 0.9s;
+    color: #1ea24d;
+}
+
+.contents_m .cont4 li span {
+    background: rgba(255, 238, 127, 1);
+    transition: all 2s;
+}
+
+
+
+
+/*.content2*/
+/*.content2 .cont_1&2*/
+.content2_m {
+    width: 100%;
+}
+
+.content2_m .cont_1_m > div .txt1 {
+    font: bold 36px "Bebas Neue";
+}
+
+.content2_m .cont_1_m > div .txt2 {
+    font: bold 36px "Bebas Neue";
+    line-height: 0.95;
+    margin-top: 4px;
+}
+
+
+
+.content2_m .cont_2_m .txt3 {
+    font: bold 40px "Bebas Neue";
+}
+
+
+.content2_m .cont_3_m .txt4 {
+    font: bold 40px "Bebas Neue";
+}
+
+.content2_m .cont_3_m .txt5 {
+    font: bold 40px "Bebas Neue";
+}
+
+
+
+/*content2 .cont_3*/
+
+.content2_m .cont_5_m {}
+
+.content2_m .cont_5_m h2 {
+    font: bold 44px "Bebas Neue";
+}
+
+.content2_m .cont_5_m h2 .line {
+    left: 17%;
+    bottom: 20px;
+    height: 15px;
+}
+
+.content2_m .cont_5_m h2 img {
+    width: 30px;
+    margin: 12px;
+}
+
+.content2_m .cont_5_m h2:hover .line {
+    width: 60%;
+}
+
+
+
+
+
+
+}
+
+
+/*  태블릿:width 1023px 미만 640px 이상 */
+@media screen and (min-width:640px) and (max-width:1024px) {
+
+.contents_m, .content2_m {
+    display: none;
+}
+
+/*visual*/
+.visual {
+    height: 470px;
+}
+
+.visual h2 {
+    top: 27%;
+    left: 35%;
+    font: normal 75px "Do Hyeon";
+}
+
+.visual h3 {
+    top: 49%;
+    left: 28%;
+    font: normal 21px "Malgun Gothic";
+}
+
+/*contents*/
+.contents {
+    width: 96%;
+    margin: 0 auto;
+}
+
+/*cont0*/
+.contents .cont0 {
+    margin: 100px auto 0;
+    height: 150px;
+}
+
+.contents .cont0 h2 {
+    font: normal 23px "Do Hyeon";
+}
+
+/*cont1*/
+.contents .cont1 {
+    margin: 90px auto 0;
+
+}
+
+.contents .cont1 > div {
+    width: 48%;
+}
+
+.contents .cont1 > div:first-child {
+    margin-right: 4%;
+}
+
+.contents .cont1 > div h2 {
+    font: normal 21px "Do Hyeon";
+    top: 12%;
+    text-align: left;
+}
+
+/*cont2*/
+.contents .cont2 {
+    height: 380px;
+    margin: 110px auto 0;
+}
+
+.contents .cont2 li {
+    width: 46%;
+    height: 380px;
+}
+
+.contents .cont2 li:first-child {
+    margin-right: 8%;
+}
+
+.contents .cont2 li h2 {
+    font: normal 22px "Do Hyeon";
+    top: 14%;
+    left: 20%;
+}
+
+/*cont3*/
+.contents .cont3 {
+    height: 330px;
+    margin: 90px auto 0;
+}
+
+.contents .cont3 li {
+    width: 48%;
+    height: 330px;
+}
+
+.contents .cont3 li:first-child {
+
+    margin-right: 4%;
+}
+
+.contents .cont3 li h2 {
+    font: normal 21px "Do Hyeon";
+    text-align: left;
+    top: 12%;
+    left: 5%;
+}
+
+
+/*cont4*/
+.contents .cont4 {
+    height: 380px;
+    margin: 110px auto 0;
+    /*110px*/
+
+}
+
+.contents .cont4 li {
+    width: 46%;
+    height: 380px;
+}
+
+.contents .cont4 li:first-child {
+    margin-right: 8%;
+}
+
+.contents .cont4 li h2 {
+    font: normal 22px "Do Hyeon";
+    top: 14%;
+    left: 20%;
+}
+
+
+/*.content2 .cont_1&2*/
+.content2 .cont_1 > div .txt1 {
+    font: bold 50px "Bebas Neue";
+}
+
+.content2 .cont_1 > div ul li .txt2 {
+    font: bold 50px "Bebas Neue";
+    line-height: 1;
+    margin-top: 4px;
+}
+
+.content2 .cont_1 > div ul li .txt3 {
+    font: bold 50px "Bebas Neue";
+}
+
+.content2 .cont_2 ul li .txt4 {
+    font: bold 50px "Bebas Neue";
+}
+
+.content2 .cont_2 ul li .txt5 {
+    font: bold 50px "Bebas Neue";
+}
+
+
+/*content2 .cont_3*/
+.content2 .cont_3 {}
+
+.content2 .cont_3 h2 {
+    font: bold 60px "Bebas Neue";
+}
+
+.content2 .cont_3 h2 .line {
+    left: 18%;
+    bottom: 20px;
+}
+
+.content2 .cont_3 h2 img {
+    margin: 15px;
+}
+
+.content2 .cont_3 h2:hover .line {
+    width: 60%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+/*pc*/
+@media all and (min-width:1024px) {
+
+.contents_m,.content2_m {
+    display: none;
+}
+
+.visual {
+    height: 500px;
+}
+
+.visual h2 {
+    top: 30%;
+    left: 39.5%;
+    font: normal 85px "Do Hyeon";
+}
+
+.visual h3 {
+    top: 54%;
+    left: 34%;
+    font: normal 24px "Malgun Gothic";
+}
+
+
+
+.contents {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/*cont0*/
+.contents .cont0 {
+    margin: 120px auto 0;
+    height: 150px;
+}
+
+.contents .cont0 h2 {
+    font: normal 26px "Do Hyeon";
+}
+
+/*cont1*/
+.contents .cont1 {
+    margin: 120px auto 0;
+}
+
+.contents .cont1 > div {
+    width: 46%;
+
+}
+
+.contents .cont1 > div:first-child {
+    margin-right: 8%;
+}
+
+.contents .cont1 > div h2 {
+    font: normal 26px "Do Hyeon";
+    top: 28%;
+}
+
+
+/*cont2*/
+.contents .cont2 {
+    height: 400px;
+    margin: 150px auto 0;
+}
+
+.contents .cont2 li {
+    width: 46%;
+}
+
+.contents .cont2 li:first-child {
+    margin-right: 8%;
+}
+
+.contents .cont2 li h2 {
+    font: normal 26px "Do Hyeon";
+    top: 23%;
+    left: 20%;
+}
+
+/*cont3*/
+.contents .cont3 {
+    height: 400px;
+    margin: 100px auto 0;
+}
+
+
+.contents .cont3 li {
+    width: 46%;
+    height: 400px;
+}
+
+.contents .cont3 li:first-child {
+    margin-right: 8%;
+}
+
+.contents .cont3 li h2 {
+    font: normal 26px "Do Hyeon";
+    top: 28%;
+}
+
+
+/*cont4*/
+.contents .cont4 {
+    margin: 150px auto 0;
+    height: 400px;
+}
+
+.contents .cont4 li {
+    width: 46%;
+    height: 400px;
+}
+
+.contents .cont4 li:first-child {
+    margin-right: 8%;
+}
+
+.contents .cont4 li h2 {
+    font: normal 26px "Do Hyeon";
+    top: 23%;
+    left: 20%;
+}
+
+
+/*.content2 .cont_1&2*/
+.content2 .cont_1 > div .txt1 {
+    font: bold 60px "Bebas Neue";
+}
+
+.content2 .cont_1 > div ul li .txt2 {
+    font: bold 60px "Bebas Neue";
+}
+
+.content2 .cont_1 > div ul li .txt3 {
+    font: bold 60px "Bebas Neue";
+}
+
+.content2 .cont_2 ul li .txt4 {
+    font: bold 60px "Bebas Neue";
+}
+
+.content2 .cont_2 ul li .txt4 {
+    font: bold 60px "Bebas Neue";
+}
+
+
+
+/*content2 .cont_3*/
+
+.content2 .cont_3 {}
+
+.content2 .cont_3 h2 {
+    font: bold 60px "Bebas Neue";
+}
+
+.content2 .cont_3 h2 .line {
+    left: 32%;
+    bottom: 20px;
+}
+
+.content2 .cont_3 h2 img {
+    margin: 15px;
+}
+
+.content2 .cont_3 h2:hover .line {
+    width: 34%;
+}
+
+
+
+
+
+
+
+}
+    
+
